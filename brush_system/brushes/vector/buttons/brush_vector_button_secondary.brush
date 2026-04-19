@@ -1,0 +1,24 @@
+{
+  "brush_id": "brush_vector_button_secondary",
+  "type": "vector",
+  "category": "button",
+  "layers": {
+    "base": {
+      "path": "organic_blob",
+      "fill": "transparent",
+      "stroke": {
+        "color": "$primary_pink",
+        "width": 2,
+        "style": "dry_brush"
+      }
+    },
+    "texture": null,
+    "highlight": null,
+    "shadow": {
+      "color": "$shadow_blend",
+      "blur": 8,
+      "offset": [0, 4]
+    }
+  }
+}
+  

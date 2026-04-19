@@ -1,0 +1,26 @@
+{
+  "screen_id": "screen_details",
+  "name": "Details",
+  "layout": {
+    "background": "brush_raster_bg_softwash",
+    "elements": [
+      {
+        "id": "back_nav",
+        "component": "comp_button_secondary",
+        "position": "top_left",
+        "override": {
+          "icon": "brush_stroke_arrow_left"
+        }
+      },
+      {
+        "id": "content_area",
+        "component": "comp_card_soft",
+        "position": "center",
+        "content_items": [
+          "brush_vector_text_soft_heading",
+          "brush_vector_text_soft_paragraph"
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "component_id": "comp_card_soft",
+  "function": "container",
+  "style": "soft",
+  "structure": {
+    "background": {
+      "base_brush": "brush_raster_bg_softwash",
+      "mask": "rounded_rectangle_irregular_edges"
+    },
+    "padding": "32px",
+    "content_layout": "vertical_stack"
+  },
+  "visuals": {
+    "elevation": "layered",
+    "shadow": "$shadow_blend"
+  }
+}

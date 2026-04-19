@@ -1,0 +1,10 @@
+{
+  "composition_id": "home_final",
+  "target": "screen_home",
+  "render_pipeline": [
+    "load_palette: base.json",
+    "render_layer: background (brush_raster_bg_softwash)",
+    "render_layer: elements (comp_header_brush, comp_button_primary)",
+    "apply_global_blend: soft_light"
+  ]
+}

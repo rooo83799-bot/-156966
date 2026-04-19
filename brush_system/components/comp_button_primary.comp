@@ -1,0 +1,22 @@
+{
+  "component_id": "comp_button_primary",
+  "function": "action",
+  "style": "primary",
+  "structure": {
+    "background": "brush_vector_button_primary",
+    "content": {
+      "type": "text",
+      "brush": "brush_vector_text_soft",
+      "alignment": "center"
+    }
+  },
+  "interactions": {
+    "hover": {
+      "scale": 1.05,
+      "shadow_blur": 25
+    },
+    "tap": {
+      "scale": 0.95
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "component_id": "comp_button_secondary",
+  "function": "navigation",
+  "style": "icon",
+  "structure": {
+    "background": "brush_vector_button_secondary",
+    "content": {
+      "type": "icon",
+      "alignment": "center"
+    }
+  },
+  "interactions": {
+    "hover": {
+      "scale": 1.1,
+      "shadow_blur": 15
+    },
+    "tap": {
+      "scale": 0.9
+    }
+  }
+}

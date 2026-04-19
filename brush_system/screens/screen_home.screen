@@ -1,0 +1,25 @@
+{
+  "screen_id": "screen_home",
+  "name": "Home",
+  "layout": {
+    "background": "brush_raster_bg_softwash",
+    "elements": [
+      {
+        "id": "header",
+        "component": "comp_header_brush",
+        "position": "top",
+        "override": {
+          "text": "Welcome to the Atelier"
+        }
+      },
+      {
+        "id": "main_action",
+        "component": "comp_button_primary",
+        "position": "center",
+        "override": {
+          "text": "Start Painting"
+        }
+      }
+    ]
+  }
+}

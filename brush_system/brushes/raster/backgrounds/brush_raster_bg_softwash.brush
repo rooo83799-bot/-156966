@@ -1,0 +1,31 @@
+{
+  "brush_id": "brush_raster_bg_softwash",
+  "type": "raster",
+  "category": "background",
+  "layers": {
+    "base": {
+      "color": "$soft_white",
+      "opacity": 1.0,
+      "blend_mode": "normal"
+    },
+    "texture": {
+      "pattern": "watercolor_grain",
+      "opacity": 0.4,
+      "scale": 1.5
+    },
+    "highlight": {
+      "color": "#FFFFFF",
+      "intensity": 0.2,
+      "spread": 120
+    },
+    "shadow": {
+      "color": "$shadow_blend",
+      "blur": 40,
+      "offset": [0, 20]
+    }
+  },
+  "dynamics": {
+    "softness": 100,
+    "flow": "continuous"
+  }
+}

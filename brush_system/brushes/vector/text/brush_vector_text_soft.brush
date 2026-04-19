@@ -1,0 +1,19 @@
+{
+  "brush_id": "brush_vector_text_soft",
+  "type": "vector",
+  "category": "text",
+  "layers": {
+    "base": {
+      "font_family": "Caveat, cursive",
+      "color": "$text_dark_pink",
+      "weight": "bold",
+      "style": "flowing"
+    },
+    "texture": {
+      "effect": "ink_bleed",
+      "radius": 1
+    },
+    "highlight": null,
+    "shadow": null
+  }
+}

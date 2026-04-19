@@ -1,0 +1,14 @@
+{
+  "name": "Brush Base Palette",
+  "colors": {
+    "primary_pink": "#FFC0CB",
+    "soft_white": "#FFF0F5",
+    "accent_pastels": {
+      "mint": "#E8F4F0",
+      "peach": "#FFE5B4",
+      "lavender": "#E6E6FA"
+    },
+    "shadow_blend": "rgba(255, 192, 203, 0.25)",
+    "text_dark_pink": "#482138"
+  }
+}

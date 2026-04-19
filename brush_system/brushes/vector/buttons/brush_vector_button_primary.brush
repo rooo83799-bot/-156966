@@ -1,0 +1,26 @@
+{
+  "brush_id": "brush_vector_button_primary",
+  "type": "vector",
+  "category": "button",
+  "layers": {
+    "base": {
+      "path": "pill_rounded_soft",
+      "fill": "$primary_pink",
+      "stroke": "none"
+    },
+    "texture": {
+      "overlay": "brush_stroke_subtle",
+      "opacity": 0.2
+    },
+    "highlight": {
+      "type": "inner_glow",
+      "color": "#FFFFFF",
+      "blur": 10
+    },
+    "shadow": {
+      "color": "$shadow_blend",
+      "blur": 15,
+      "offset": [0, 8]
+    }
+  }
+}

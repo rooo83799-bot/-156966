@@ -1,0 +1,11 @@
+{
+  "composition_id": "second_final",
+  "target": "screen_details",
+  "render_pipeline": [
+    "load_palette: base.json",
+    "render_layer: background (brush_raster_bg_softwash)",
+    "render_layer: navigation (comp_button_secondary)",
+    "render_layer: content (comp_card_soft)",
+    "apply_global_blend: multiply_alpha_0.1"
+  ]
+}
